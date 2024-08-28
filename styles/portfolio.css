@@ -93,7 +93,7 @@ nav a {
   padding: 50px;
   background-color: #697565;
   border-radius: 20px;
-  margin: 90px;
+  margin: 75px 0px 75px 0px ;
   box-shadow: 1px 1px 30px 1px rgb(94, 93, 93);
 }
 .about-info-container {
@@ -111,6 +111,11 @@ nav a {
 .info-description {
   margin-top: 1px;
   font-weight: 700;
+}
+.what-do-i-do {
+  padding: 50px;
+  border-radius: 20px;
+  margin: 75px 0px 75px 0px ;
 }
 #what-i-do {
   padding: 5px;
