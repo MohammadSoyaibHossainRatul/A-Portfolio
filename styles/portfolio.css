@@ -19,6 +19,13 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+.section-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
 /* nav related styles */
 nav{
     display: flex;
@@ -48,6 +55,7 @@ nav a{
 .header{
     background-color: #ECDFCC;
     border-radius: 20px;
+    box-shadow: 1px 1px 50px 1px rgb(143, 142, 142) ;
 }
 
 .banner{
@@ -78,14 +86,10 @@ nav a{
 }
 .about{
     padding: 50px;
-    background-color: #ECDFCC;
+    background-color: #697565;
     border-radius: 20px;
     margin: 90px;
-}
-.section-title{
-    text-align: center;
-    font-weight: 600;
-    font-size: 30px;
+    box-shadow: 1px 1px 30px 1px rgb(94, 93, 93) ;
 }
 .about-info-container{
     display: flex;
@@ -102,4 +106,26 @@ nav a{
 .info-description{
     margin-top: 1px;
     font-weight: 700;
+}
+#what-i-do{
+    padding: 5px;
+    margin-top: 1px;
+    /* background-color: #3c3d37a1;
+    border-radius: 20px;
+    margin: 90px; */
+}
+.what-i-do-title{
+    margin-top: 1px;
+}
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+}
+.skill{
+    background-color: #ECDFCC;
+    box-shadow: 1px 1px 30px 1px rgb(94, 93, 93) ;
+    padding: 30px;
+    max-width: 200px;
+    max-height: 400px;
+    margin-right: 20px;justify-content: space-around;
 }
