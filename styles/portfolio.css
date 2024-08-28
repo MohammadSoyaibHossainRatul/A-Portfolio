@@ -2,7 +2,8 @@
 body{
         font-family: "New Amsterdam", sans-serif;
         font-weight: 400;
-        font-style: normal;     
+        font-style: normal;
+        background-color: #f5eee4;     
 }
 .btn-primary{
     border-radius: 5px;
@@ -13,6 +14,10 @@ body{
     /* font-size: 16px; */
     padding: 12px 24px;
     margin: 1px 0px 1px 1px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
 }
 /* nav related styles */
 nav{
@@ -75,10 +80,26 @@ nav a{
     padding: 50px;
     background-color: #ECDFCC;
     border-radius: 20px;
-    margin: 100px;
+    margin: 90px;
 }
 .section-title{
     text-align: center;
     font-weight: 600;
     font-size: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+   text-align: center;
+   margin-bottom: 1px;
+   font-weight: 100;
+}
+.info-description{
+    margin-top: 1px;
+    font-weight: 700;
 }
