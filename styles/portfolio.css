@@ -12,7 +12,7 @@ body{
     font-weight: 600;
     /* font-size: 16px; */
     padding: 12px 24px;
-    margin: 3px;
+    margin: 1px 0px 1px 1px;
 }
 /* nav related styles */
 nav{
@@ -23,7 +23,7 @@ nav{
 }
 .nav-title{
     color: black;
-    font-size: 30;
+    font-size: 30px;
 }
 .text-primary {
     color: #697565;
@@ -42,16 +42,43 @@ nav a{
 /* header related styles */
 .header{
     background-color: #ECDFCC;
+    border-radius: 20px;
 }
 
 .banner{
     padding: 10px 10px 0px 50px;
     display: flex;
+    background-image: url(../images/circles.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 500px;
+    justify-content: space-between;
+    border-radius: 20px;
 }
 .banner-content {
-   
+   max-width: 50%;
 }
 /* photo of home page */
 .locusimg{
     width: 300px;
+}
+.greetings{
+    margin-bottom: 1px;
+}
+.user-name{
+    margin: 0px 0px 1px 0px ;
+}
+.short-bio{
+    margin-top: 5px;
+}
+.about{
+    padding: 50px;
+    background-color: #ECDFCC;
+    border-radius: 20px;
+    margin: 100px;
+}
+.section-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
 }
