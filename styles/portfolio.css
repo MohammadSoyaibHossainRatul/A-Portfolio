@@ -174,12 +174,23 @@ nav a {
   max-width: 500px;
 }
 .btn-dwnld-cv {
-  border-radius: 5px;
-  background: #697565;
-  border: 0;
-  color: white;
-  font-weight: 600;
-  padding: 12px 24px;
-  margin-left: 47%;
-  margin-top: 5%;
+  text-align: center;
+  margin-top: 70px;
+}
+/* footer styles */
+footer{
+display: flex;
+gap: 250px;
+background-color: #ecdfcc;
+padding: 130px 170px;
+max-width: 2160px;
+border-radius: 20px;
+box-shadow: -1px -1px 50px 1px rgb(143, 142, 142);
+margin: 70px auto 10px;
+}
+.footer-column{
+  width: 50%;
+}
+.footer-sec-dis{
+  max-width: 600px;
 }
