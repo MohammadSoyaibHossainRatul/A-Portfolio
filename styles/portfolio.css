@@ -142,10 +142,13 @@ nav a {
   background-color: #ecdfcc;
   box-shadow: 1px 1px 30px 1px rgb(94, 93, 93);
   padding: 30px;
-  max-width: 200px;
-  max-height: 400px;
+  max-width: 250px;
+  max-height: 600px;
   margin-right: 20px;
   justify-content: space-around;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
 }
 /* resume styles */
 
@@ -178,19 +181,28 @@ nav a {
   margin-top: 70px;
 }
 /* footer styles */
-footer{
-display: flex;
-gap: 250px;
-background-color: #ecdfcc;
-padding: 130px 170px;
-max-width: 2160px;
-border-radius: 20px;
-box-shadow: -1px -1px 50px 1px rgb(143, 142, 142);
-margin: 70px auto 10px;
+footer {
+  display: flex;
+  gap: 250px;
+  background-color: #ecdfcc;
+  padding: 130px 170px;
+  max-width: 2160px;
+  border-radius: 20px;
+  box-shadow: -1px -1px 50px 1px rgb(143, 142, 142);
+  margin: 70px auto 10px;
 }
-.footer-column{
+.footer-column {
   width: 50%;
 }
-.footer-sec-dis{
+.footer-sec-dis {
   max-width: 600px;
+}
+.contact input,
+textarea {
+  display: block;
+  margin-bottom: 20px;
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: none;
+  width: 70%;
 }
