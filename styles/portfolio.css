@@ -7,6 +7,12 @@ body {
   font-size: 20px;
   background-color: #f5eee4;
 }
+.sticky{
+  position: sticky;
+  top: 93%;
+  left: 97%;
+  width: 50px;
+}
 .btn-primary {
   border-radius: 5px;
   background: #697565;
@@ -37,6 +43,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: 0 1%;
+  /* position:sticky;
+  top: 5px; */
   /* position: fixed;
   width: 100%;
   border-radius: 20px;
@@ -68,6 +76,9 @@ nav a {
   box-shadow: 1px 1px 50px 1px rgb(143, 142, 142);
   max-width: 2160px;
   margin: 0 auto;
+  /* position:sticky;
+  top: 0px; 
+  this will make the header stick at the top */
 }
 
 .banner {
